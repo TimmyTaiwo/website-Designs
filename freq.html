@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url("business-people-using-digital-devices-isolated-white-background.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    .a{
+        font-weight: bold;
+        text-align: center;
+        color: red;
+        transform: translateY(70px);
+    }
+    tr{
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+    table{
+        border: 3px solid cadetblue;
+        border-radius: 5px;
+        border-collapse: collapse;
+        text-align: center;
+        margin-top: 90px;
+    }
+    th{
+        background-color:cadetblue;
+        /* border-right: none; */
+    }
+    td{
+        background-color: rgb(243,243,243);
+    }
+    .b{
+        font-weight: bold;
+        text-align: center;
+        color: red;
+        transform: translateY(70px);
+    }
+    h1{
+        text-align: center;
+        font-family: cursive;
+        position: relative;
+    }
+    h1::before{
+        content: "";
+        position: absolute;
+        width: 200px;
+        height: 6px;
+        background-color: red;
+        bottom: 0px;
+        left: 660px;
+        animation: animate 4s linear infinite;
+        transform: translate(-50%);
+    }
+    @keyframes animate {
+        0%{width: 100px;}
+        50%{width: 200px;}
+        100%{width: 100px;}
+    }
+    .chin{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .dot{
+        margin-left: 50px;
+    }
+    .plot{
+        border: 1px solid black;
+        height: 19px;
+        width: 50px;
+        background-color: blueviolet;
+    }
+    .plot:hover{
+        border-radius: 10px;
+        background-color: red;
+    }
+    .plan{
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    .axe{
+        font-family: cursive;
+    }
+</style>
+<body>
+    <p class="axe">Click the link below to go to the home page</p>
+    <div class="plot">
+     <a href="politics.html" class="plan">HOME</a>
+    </div>
+    <h1>FREQUENCY</h1>
+    <div>
+        <h2 class="chin">8 SEPTEMBER 2022</h2>
+    </div>
+    <h3>This page contains frequency data on the table in the homepage</h3>
+    <h4 class="a">Pictorial representation of the frequency</h4>
+        <div class="dot">
+            <img src="frequency.png" alt="">
+        </div>
+    <h4 class="b">Tabular representation of the frequency</h4>
+    <div>
+        <table width="100%">
+            <tr>
+                <th>S/N</th>
+                <th>PROMISES</th>
+                <th>BUDGET</th>
+                <th>FREQUENCY</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>BRIDGES</td>
+                <td>431000000000</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>EDUCATION</td>
+                <td>829160977204</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>SECURITY</td>
+                <td>915319575933</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>HEALTHCARE</td>
+                <td>834523832489</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>JOBS</td>
+                <td>622239558152</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>FOOD</td>
+                <td>776368165229</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>ELECTRICITY</td>
+                <td>666066045931</td>
+                <td>4</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

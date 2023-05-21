@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url("hand-putting-money-in-bank.jpg");
+    }
+    tr{
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+    table{
+        border: 3px solid cadetblue;
+        border-radius: 5px;
+        border-collapse: collapse;
+        text-align: center;
+        margin-top: 90px;
+    }
+    th{
+        background-color:cadetblue;
+        /* border-right: none; */
+    }
+    td{
+        background-color: rgb(243,243,243);
+    }
+    h1{
+        text-align: center;
+        font-family: cursive;
+        position: relative;
+    }
+    h1::before{
+        content: "";
+        position: absolute;
+        width: 200px;
+        height: 6px;
+        background-color: red;
+        bottom: 0px;
+        left: 660px;
+        animation: animate 4s linear infinite;
+        transform: translate(-50%);
+    }
+    @keyframes animate {
+        0%{width: 100px;}
+        50%{width: 420px;}
+        100%{width: 100px;}
+    }
+    .chin{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+</style>
+<body>
+    <h1>Relative-cummulative-frequency</h1>
+    <h2 class="chin">8 SEPTEMBER 2022</h2>
+    <h3>This page contains data on relative cummulative frequency</h3>
+    <div>
+        <table width="100%">
+            <tr>
+                <th>S/N</th>
+                <th>PROMISES</th>
+                <th>BUDGET</th>
+                <th>RELATIVE CUMMULATIVE FREQUENCY</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>BRIDGES</td>
+                <td>431000000000</td>
+                <td>17.64705882</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>EDUCATION</td>
+                <td>829160977204</td>
+                <td>35.29411765</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>SECURITY</td>
+                <td>915319575933</td>
+                <td>50.98039216</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>HEALTHCARE</td>
+                <td>834523832489</td>
+                <td>66.66666667</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>JOBS</td>
+                <td>622239558152</td>
+                <td>80.39215686</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>FOOD</td>
+                <td>776368165229</td>
+                <td>92.15686275</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>ELECTRICITY</td>
+                <td>666066045931</td>
+                <td>100</td>
+            </tr>
+        </table>
+
+</body>
+</html>
